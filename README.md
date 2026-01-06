@@ -28,8 +28,8 @@ This is an interactive web application for **context-aware question answering** 
 git clone https://github.com/yoursrealkiran/RAG.git
 cd RAG
 
-```bash
+
 python -m venv .venv
-source .venv/bin/activate  # Linux/macOS
+source .venv/bin/activate  # Linux
 uv sync
 

@@ -20,16 +20,52 @@ This is an interactive web application for **context-aware question answering** 
 
 ---
 
-## Installation
+## Prerequisites
 
-1. **Clone the repository**
+This project uses `uv` as the python package manager
 
-```bash
-git clone https://github.com/yoursrealkiran/RAG.git
-cd RAG
+### Install uv:
 
+`curl -LsSf https://astral.sh/uv/install.sh | sh`
 
-uv venv # To create a virtual environment
-source .venv/bin/activate  # To activate the virtual environment
-uv sync # To install dependencies
+### Verify the installation:
+
+`uv --version`
+
+## Clone the repository or Download as zip file
+
+`https://github.com/yoursrealkiran/RAG.git`
+
+## Environment Setup
+
+### Create a Virual Environment
+
+`uv venv`
+
+#### Activate the environment
+
+`source .venv/bin/activate`
+
+#### Install Dependencies
+
+`uv sync`
+
+## Running the Application
+
+### 1. Data Ingestion
+
+Run the data ingestion script to prepare your data:
+`uv run document_processing.py`
+
+### 2. Start the Application
+
+Create an .env file and add your Groq API key in the .env file
+Launch the Streamlit application:
+`uv run streamlit run chatbot.py`
+
+## Note:
+
+- Make sure you have the required pdf files in place before running the ingestion script (document_processing.py) and change the `config.py` accordingly.
+- The web app will be available in your browser once Streamlit starts.
+- To deactivate the virtual environment simply run `deactivate`.
 

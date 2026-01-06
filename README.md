@@ -29,7 +29,7 @@ git clone https://github.com/yoursrealkiran/RAG.git
 cd RAG
 
 
-python -m venv .venv
-source .venv/bin/activate  # Linux
-uv sync
+uv venv # To create a virtual environment
+source .venv/bin/activate  # To activate the virtual environment
+uv sync # To install dependencies
 

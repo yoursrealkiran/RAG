@@ -55,12 +55,15 @@ This project uses `uv` as the python package manager
 ### 1. Data Ingestion
 
 Run the data ingestion script to prepare your data:
+
 `uv run document_processing.py`
 
 ### 2. Start the Application
 
-Create an .env file and add your Groq API key in the .env file,
-then launch the Streamlit application:
+Create an .env file and add your Groq API key in the .env file
+
+Launch the Streamlit application:
+
 `uv run streamlit run chatbot.py`
 
 ## Note:

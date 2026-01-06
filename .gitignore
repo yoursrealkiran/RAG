@@ -1,0 +1,15 @@
+# Environment files
+.env
+
+# VSCode workspace settings
+.vscode/
+
+# Python cache files
+__pycache__/
+
+# Documentation
+docs/
+
+# PDF folders
+pdfs_1/
+pdfs_2/

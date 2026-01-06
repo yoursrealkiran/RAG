@@ -36,9 +36,13 @@ This project uses `uv` as the python package manager
 
 `https://github.com/yoursrealkiran/RAG.git`
 
+`cd RAG`
+
 ## Environment Setup
 
 ### Create a Virual Environment
+
+#### In the terminal, run the below command to create a virtual environment
 
 `uv venv`
 

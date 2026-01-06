@@ -64,7 +64,7 @@ Run the data ingestion script to prepare your data:
 
 ### 2. Start the Application
 
-Create an .env file and add your Groq API key in the .env file
+Paste your Groq API key in the .env file
 
 Launch the Streamlit application:
 

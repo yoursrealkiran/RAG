@@ -30,6 +30,8 @@ This project uses `uv` as the python package manager
 
 ### Verify the installation:
 
+`echo 'export PATH="$HOME/snap/code/221/.local/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc`
+
 `uv --version`
 
 ## Clone the repository or Download as zip file
